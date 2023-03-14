@@ -1,0 +1,7 @@
+bellibolt,ceruledge,oranguru,garchomp,kilowattrel,annihilape
+bellibolt,109,64,91,103,83,45,electric,
+ceruledge,75,125,80,60,100,85,fire,ghost
+oranguru,90,60,80,90,110,60,normal,psychic
+garchomp,108,130,95,80,85,102,dragon,ground
+kilowattrel,70,70,60,105,60,125,electric,flying
+annihilape,110,115,80,50,90,90,fighting,ghost

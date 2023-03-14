@@ -1,0 +1,7 @@
+lunala,groudon,tapu-fini,tsareena,incineroar,stakataka
+lunala,137,113,89,137,107,97,psychic,ghost
+groudon,100,150,140,100,90,90,ground,
+tapu-fini,70,75,115,95,130,85,water,fairy
+tsareena,72,120,98,50,98,72,grass,
+incineroar,95,115,90,80,90,60,fire,dark
+stakataka,61,131,211,53,101,13,rock,steel
