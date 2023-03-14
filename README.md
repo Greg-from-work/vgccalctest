@@ -12,7 +12,7 @@ Next, run main.py
 
 To start, you will be asked to supply a mode.
 
-MODES:
+MODES:  
 Type s in order to see how your speed matches up to the enemy team
 
 Type d to see how much damage a particular move from one of the opponent's Pokémon will do to each of your teammembers
@@ -20,13 +20,13 @@ Type d+ for the same as the above, but the opposing Pokémon will be treated as 
 
 Type a to see how much damage one of your Pokémon can be expected to deal to the whole enemy team
 
-DATA YOU NEED TO ENTER WHILE IN A MODE
+DATA YOU NEED TO ENTER WHILE IN A MODE:  
 If asked for an enemy team string, the program is looking for the way that Showdown displays the enemy team. This looks something like:
 Lunala / Groudon / Tapu Fini / Tsareena / Incineroar / Stakataka
 
 If in mode a the attacking mon should be one of the pokemon in your team
 
-MULTS:
+MULTS:  
 The last thing you can be asked for is mults. This is an optional field, so if you don't wish to supply any then just hit enter.
 
 Though the program automatically handles some things (such as typings, STAB, EVs and natures) there are a ton of possible multipliers in pokemon. As an example, consider a specs Gholdengo using make it rain (a spread move) while its ally uses helping hand. Since the point of this program is to give you an idea of how much damage you should expect to take as quickly as possible, I did not want the user to have to spend a long time searching and clicking various buttons. Instead I allow the user to lump all of their multipliers together as a grouping of comma separated values and fractions.
@@ -42,21 +42,21 @@ In other words, there should never be a scenario in which it looks like your Pok
 
 Below is an example of me running this Gholdengo calculation against the team in the default supplied files.
 
-*************
+******************
 Example run with the default files
-*************
+******************
 
-Input the mode:
-d
-Enemy Pokemon name:
-gholdengo
-Move name:
-make it rain
-Mults:
-1.5,3/4,1.5
-bellibolt: 39.1-46.0% or 47.4-55.8%
-ceruledge: 40.1-47.3% or 47.8-56.6%
-oranguru: 56.3-66.5% or 67.5-79.7%
-garchomp: 88.4-104.2% or 106.9-125.9%
-kilowattrel: 75.3-89.0% or 91.1-107.5%
+Input the mode:  
+d  
+Enemy Pokemon name:  
+gholdengo  
+Move name:  
+make it rain  
+Mults:  
+1.5,3/4,1.5  
+bellibolt: 39.1-46.0% or 47.4-55.8%  
+ceruledge: 40.1-47.3% or 47.8-56.6%  
+oranguru: 56.3-66.5% or 67.5-79.7%  
+garchomp: 88.4-104.2% or 106.9-125.9%  
+kilowattrel: 75.3-89.0% or 91.1-107.5%  
 annihilape: 74.4-87.9% or 89.3-105.6%
