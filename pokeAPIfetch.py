@@ -31,6 +31,7 @@ def movefetch(move,movedata):
     movedata["movetype"] = jsonobj["type"]["name"]
     movedata["movedmgclass"] = jsonobj["damage_class"]["name"]
 
+#For when a whole team needs to be fetched from PokeAPI
 def fetchteam(file,teamlist):
     # Add all of the new properties
     for keys in teamlist:

@@ -1,7 +1,7 @@
 import math
 import PokeStructures as pstructs
 
-#Pass in a mondict and a stat to calc
+#Pass in a mon dictionary and a stat to calculate
 def calcstat(mondict,statname,level,natureoverride="",evoverride=""):
 
     basestat = int(mondict["base" + statname])
@@ -41,7 +41,7 @@ def calcstat(mondict,statname,level,natureoverride="",evoverride=""):
         return ( math.floor((math.floor(((((2 * basestat) + 31) + math.floor(statev / 4)) * level)/100)+5)*naturemult) )
 
 
-
+#Get the number of points of damage that a move deals
 def damagenum(typeeffect,stab,attackingstat,defendingstat,level,movepower,multval=1):
 
     init = (((((2*level)/5)+2)*movepower*(attackingstat/defendingstat))/50)+2
@@ -58,3 +58,6 @@ def damagenum(typeeffect,stab,attackingstat,defendingstat,level,movepower,multva
 def percenthp(dmg,mon,level,evoverrideinternal=""):
 
     return round( (dmg/calcstat(mon,"HP",level,evoverride=evoverrideinternal))*100 ,1)
+
+def get_type_multiplier(attacking_type, defending_type):
+    return pstructs.type_resistances[attacking_type].get(defending_type, 1.0)
