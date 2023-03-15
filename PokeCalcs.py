@@ -44,16 +44,16 @@ def calcstat(mondict,statname,level,natureoverride="",evoverride=""):
 #Get the number of points of damage that a move deals
 def damagenum(typeeffect,stab,attackingstat,defendingstat,level,movepower,multval=1):
 
-    init = (((((2*level)/5)+2)*movepower*(attackingstat/defendingstat))/50)+2
-    posttypeeffect = init*typeeffect
+    init = math.floor( math.floor( math.floor((2 * level) / 5 + 2) * movepower * attackingstat / defendingstat ) / 50 + 2 )
+
     if stab == 0:
-        poststab = posttypeeffect
+        poststab = init
     else:
-        poststab = posttypeeffect * 1.5
+        poststab = round(init * 1.5)
 
-    final = poststab*multval
+    posttypeeffect = round(poststab * typeeffect)
 
-    return math.floor(final)
+    return round( posttypeeffect*multval)
 
 def percenthp(dmg,mon,level,evoverrideinternal=""):
 
