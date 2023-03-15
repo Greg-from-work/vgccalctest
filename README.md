@@ -38,8 +38,6 @@ Note that there will potentially be small rounding errors if you use the mults f
 
 In other words, there should never be a scenario in which it looks like your Pokémon lives 2 hits 100% of the time, if it is in actuality often dead to two hits. If you ever do want exact damage numbers though, I'd suggest either not using the mults field, or using the pokemon showdown calculator.
 
-#NOTE: The current version has very minor rounding errors even without the use of mults, since the Pokémon damage formulas I'm finding online are very unclear as to when specifically they rounds things. This will be fixed.
-
 Below is an example of me running this Gholdengo calculation against the team in the default supplied files.
 
 ******************
