@@ -44,17 +44,17 @@ Below is an example of me running this Gholdengo calculation against the team in
 Example run with the default files
 ******************
 
-Input the mode:
-d
-Enemy Pokemon name:
-gholdengo
-Move name:
-make it rain
-Mults:
-1.5,3/4,1.5
-bellibolt: 38.6-45.6% or 47.4-55.8%
-ceruledge: 40.1-47.3% or 48.9-57.7%
-oranguru: 54.8-65.0% or 67.5-79.7%
-garchomp: 88.4-104.2% or 106.9-125.9%
-kilowattrel: 74.0-87.7% or 91.1-107.5%
+Input the mode:  
+d  
+Enemy Pokemon name:  
+gholdengo  
+Move name:  
+make it rain  
+Mults:  
+1.5,3/4,1.5  
+bellibolt: 38.6-45.6% or 47.4-55.8%  
+ceruledge: 40.1-47.3% or 48.9-57.7%  
+oranguru: 54.8-65.0% or 67.5-79.7%  
+garchomp: 88.4-104.2% or 106.9-125.9%  
+kilowattrel: 74.0-87.7% or 91.1-107.5%  
 annihilape: 73.5-87.0% or 89.8-106.0%
