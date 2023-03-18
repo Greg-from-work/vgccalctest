@@ -142,10 +142,12 @@ while True:
         for mon in myteamdict:
             print(f'{mon} speed is {pcalcs.calcstat(myteamdict[mon],"Spe",level)}')
 
-        print("\n",end="")
+        print("\n\n",end="")
+
+        print("Left is no evs neutral nature, right is max invested plus nature")
 
         for mon in enemyteamdict:
-            print(f'{mon} neutral speed is {pcalcs.calcstat(enemyteamdict[mon], "Spe", level)} or {pcalcs.calcstat(enemyteamdict[mon], "Spe", level,evoverride="max",natureoverride="plus")}')
+            print(f'{mon} speed is {pcalcs.calcstat(enemyteamdict[mon], "Spe", level)} or {pcalcs.calcstat(enemyteamdict[mon], "Spe", level,evoverride="max",natureoverride="plus")}')
 
         print("\n",end="")
 
@@ -231,6 +233,8 @@ while True:
         stab = 0
         if (enemypoke["type1"] == movedata["movetype"]) or (enemypoke.get("type2")==movedata["movetype"]):
             stab = 1
+
+        print("\nLeft is no enemy evs, right is max evs")
 
         for mon in myteamdict:
 
